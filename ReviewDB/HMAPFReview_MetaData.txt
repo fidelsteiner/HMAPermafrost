@@ -1,0 +1,30 @@
+!DATASET DESCRIPTION
+Name: HMAPFReview_all_studies
+Description: Studies reviewed as part of doi: XXX
+
+Variables:
+
+ID - numerical identifier
+Article Title - Title of publication
+Source Title - Name of Journal
+Publication Year - year of publication
+Study Area - region of focus (see publication for details)
+Review Score - 1: core publication, relevant new data, 2: publication on a permafrost relevant topic but not focused on HMA, 3: publication mentions permafrost but is not in any way focusing on it, 4: publication with no relevant relation to the topic (not considered in review)
+Q1 to Q7 - Questionnaire, see Supplementary Material for details
+Figure_1 - Data from publication used in Figure 1 (Y) as well as in discussion of trends/magnitudes in the manuscript
+Latitude - Latitude (or range) of general study area if available
+Longitude - Longitude (or range) of general study area if available
+Elevation - Elevation (or range) of general study area if available
+Observed attribute 1 to 6 - Variables investigated in the study
+Value of observed attribute 1 to 6 - Values of observed variables
+Observation year(s) attribute 1 to 6 - Years the variables were investigated in
+Physical changes - text on observed physical changes (geomorphology)
+Ecosystems - text on observed changes of ecosystems
+Human systems - text on observed changes of livelihoods
+Special Remarks 1/2 - any other comments
+ELEVATION SINGLE - approximate mean elevation of study area
+ELEVATION MIN - minimum elevation of study area
+ELEVATION MAX - maximum elevation of study area
+LAT1 to LAT38 - Latitude of specific field sample point
+LON1 to LON38 - Longitude of specific field sample point
+ELEV1 to ELEV38 - Elevation of specific field sample point
